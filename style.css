@@ -1,0 +1,82 @@
+/* ----- jai ganesh ----- */
+
+/*------------------------------------------------------------------------------------------------------ */
+/* ---------this whole CSS property for Navigation bar has been copied from the nav bar made previously --------*/
+
+* {
+    /* ----- universal selector to make color and text-decoration of whole page. Initially anchor tags were coming with underline, that's why introduced text-decoration and set it to none. ----- */
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* div {
+    height: 60px;
+} */
+
+#navbar {
+    /* -----this ID selector helped to acheive desired height and background color of the web-page. ----- */
+    background-color: black;
+    height: 60px;
+}
+
+#logo {
+    /* ----- inside the Id selector navbar, we again made an ID selector named logo to specially design the logo of amazon.in ----- */
+    font-size: 25px;
+    color: #f08804;
+}
+
+button {
+    /* ----- to design the button ----- */
+    background-color: #f08804;
+}
+
+a {
+    /* ----- to give space between different anchor tags. This can also be done using padding, but as per concept of giving space between two elements(not inside the two elements), use of margin is imperative. ----- */
+    margin-right: 200px;
+    color: white;
+    /* padding-right: 200px; */
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------ */
+
+.contentbox1 {
+    /* ----- specifying every aspects of content box (or rectangular box in the web-page) ----- */
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: rgba(255, 0, 0, 0.75);
+    display: inline-block;
+    margin: 20px;
+}
+
+.contentbox2 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: rgba(0, 255, 0, 0.75);
+    display: inline-block;
+    margin: 20px;
+}
+
+.contentbox3 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 255, 0.75);
+    display: inline-block;
+    margin: 20px;
+}
+
+#content {
+    /* ----- to specify the height of the content area, so that footer always get displayed in the bottom of the web-page ----- */
+    height: 600px;
+}
+
+footer {
+    /* ----- specifying how the footer should appear ----- */
+    background-color: black;
+    color: white;
+    text-align: center;
+}
